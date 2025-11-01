@@ -17,7 +17,7 @@ If my instructions are not detailed enough, I will make a video tutorial for you
 
 * A Mac (of course).
 * A Nintendo Switch with Splatoon games, Switch 2 also works perfectly fine.
-* An **ESP32-WROOM** development board. You can get these easily on AliExpress. [This one looks fine](https://www.aliexpress.com/item/1005010182900541.html) (Full disclosure: I haven't bought from this specific seller, but it should work).
+* An **ESP32** development board. You can get these easily on AliExpress. [This one looks fine](https://www.aliexpress.com/item/1005010182900541.html) (Full disclosure: I haven't bought from this specific seller, but it should work).
 
 ## How to Use
 
