@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![Title](./RandomFiles/Title.png)
+=======
+![Title](RandomFiles/Title.png)
+>>>>>>> b9a34cd (Add some new stuff)
 
 # AutoSplatoon for macOS
 
@@ -10,8 +14,13 @@ I created this port because I couldn't bring my Desktop PC with me to the other 
 
 If my instructions are not detailed enough, I will make a video tutorial for you.
 
+<<<<<<< HEAD
 ![Main Menu](./RandomFiles/MainMenu.png)
 ![Manual controll](./RandomFiles/ManualControl.png)
+=======
+![Main Menu](RandomFiles/MainMenu.png)
+![Manual controll](RandomFiles/ManualControl.png)
+>>>>>>> b9a34cd (Add some new stuff)
 
 ## Requirements
 

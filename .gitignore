@@ -1,0 +1,43 @@
+#macOS System Files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#Qt/qmake Generated Files
+
+*.o
+*.moc
+*.obj
+*.so
+*.dll
+*.app
+*.dmg
+*.exe
+.pro.user
+.pro.user.
+Makefile
+*.a
+*.lib
+*.cache
+.qrc_.cpp
+plugin_import.cpp
+ui.h
+
+#Build directories (like 'build-Unnamed-Debug')
+
+build*/
+Build*/
+Debug*/
+Release*/
+debug/
+release/
+
+#Qt Creator Backups
+
+*~
+*.orig
+*.bak
+
+esptool
+PRO-UART0.bin
