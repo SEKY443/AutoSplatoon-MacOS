@@ -17,7 +17,8 @@ If my instructions are not detailed enough, I will make a video tutorial for you
 
 * A Mac (of course).
 * A Nintendo Switch with Splatoon games, Switch 2 also works perfectly fine.
-* An **ESP32** development board. You can get these easily on AliExpress. [This one looks fine](https://www.aliexpress.com/item/1005010182900541.html) (Full disclosure: I haven't bought from this specific seller, but it should work).
+* An **ESP32** development board. You can get these easily on AliExpress. [This one looks fine](https://www.aliexpress.com/item/1005010182900541.html)
+* (Full disclosure: I haven't bought from this specific seller, but it should work).
 
 ## How to Use
 
@@ -28,13 +29,13 @@ If my instructions are not detailed enough, I will make a video tutorial for you
 5.  Open the `AutoSplatoon.app` on your Mac.
 6.  Plug your ESP32 board into your Mac via USB.
 7.  In the app's dropdown menu, find and select your ESP32 board.
-    * **Important:** Make sure to select the port name that starts with **`/dev/cu.`** (not `/dev/tty.`).
+    * **Important:** Make sure to select the port name that starts with **`/dev/cu.`** (not `/dev/tty.` it's a little unstable).
 8.  Click **"Connect"**, and you can see a Joy-con Pro controller appeared at the list.
     * **If this is your first time:** You *must* click the **"Flash"** button first to write the firmware to the board. After flashing is successful, click "Connect".
 9.  Once the status says "Connected", use the **"Manual"** control buttons *in the app* to navigate back into the game and the drawing interface.
     * **CRITICAL: Do NOT touch any other controllers or the Switch's touchscreen from this point on.**
 10. Click **"BMP file"** in the app and select your 2-color (monochrome) 320 * 120 BMP file.
-11. Set your drawing parameters and location(default is 70ms, but I find 55ms works best of me. Row and Col starts from 0).
+11. Set your drawing parameters and location(default is 70ms, but I find 55ms works best of me. (Row and Col starts from 0).
 12. Place your ESP32 board near your Switch and **make sure your Switch is plugged into its power adapter**. (This prevents it from entering sleep mode. If it sleeps, the network will disconnect and your drawing will be lost!)
 13. Click **"Start"** and let it draw!
 14. Wait.
