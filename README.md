@@ -35,7 +35,7 @@ If my instructions are not detailed enough, I will make a video tutorial for you
 9.  Once the status says "Connected", use the **"Manual"** control buttons *in the app* to navigate back into the game and the drawing interface.
     * **CRITICAL: Do NOT touch any other controllers or the Switch's touchscreen from this point on.**
 10. Click **"BMP file"** in the app and select your 2-color (monochrome) 320 * 120 BMP file.
-11. Set your drawing parameters and location(default is 70ms, but I find 55ms works best of me. (Row and Col starts from 0).
+11. Set your drawing parameters and location(default is 70ms, but I find 55ms works best of me. Row and Col starts from 0).
 12. Place your ESP32 board near your Switch and **make sure your Switch is plugged into its power adapter**. (This prevents it from entering sleep mode. If it sleeps, the network will disconnect and your drawing will be lost!)
 13. Click **"Start"** and let it draw!
 14. Wait.
